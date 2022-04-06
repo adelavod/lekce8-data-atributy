@@ -11,12 +11,20 @@
 	<h1>Data atributy</h1>
 
 	<div class="ovoce">
-		<img src="obrazky/jablko.jpg">
-		<img src="obrazky/banan.jpg">
-		<img src="obrazky/kiwi.jpg">
+		<img class="obrazek" id="#jablko" data-kalorie="70" src="obrazky/jablko.jpg">
+		<img class="obrazek" id="#banan" data-kalorie="180" src="obrazky/banan.jpg">
+		<img class="obrazek" id="#kiwi" data-kalorie="115" src="obrazky/kiwi.jpg">
 	</div>
-
-	<div id="vysledek"></div>
+<ul id="seznam">
+	<li>
+		<h3>Právě jsi snědl <span id="vysledek">0</span> kalorií.</h3>
+	</li>
+	<li>
+		<h3>Celkem jsi dnes snědl <span id="totalKalorie">0</span> kalorií.</h3>
+	</li>
+</ul>
+<h3 id="tretinka">AŤ ŽIJE OVOCE!</h3>
+	
 
 	<script src="main.js"></script>
 </body>
